@@ -83,8 +83,13 @@ def sell_pet_to_customer(pet_shop, pet_name, customer):
                 add_or_remove_cash(pet_shop, pet_sold_price)
                 increase_pets_sold(pet_shop, 1)
                 break
+#refactor sell to pet function without using -abs()
+#remember adding cash to pet shop won't need a negative integer
+#get a screenshot if you get any errors
 
-    
+#try rewrite for loops without using index or enumerate
+# try to make it simplier and get screenshot if it doesn't work
+# and compare your loop with the solution on github
 
     
 
